@@ -14,7 +14,7 @@ module.exports = {
     "at-rule-name-space-after": "always-single-line",
     "at-rule-semicolon-newline-after": "always",
     "at-rule-no-unknown": [
-      true,
+      false,
       {
         ignoreAtRules: [
           "each",

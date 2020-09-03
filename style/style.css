@@ -170,7 +170,7 @@ nav li {
 
 .main-menu li:hover > a,
 nav.main-menu li.active > a {
-  color: #0B0800;
+  color: #0b0800;
   font-weight: 900;
   background-color: #ffb400;
 }
@@ -185,7 +185,7 @@ li:hover span.nav-text {
   width: 100px;
   height: 60px;
   background-color: #ffb400;
-  color: #0B0800;
+  color: #0b0800;
 }
 
 .color-block {
@@ -234,7 +234,7 @@ li:hover span.nav-text {
   line-height: 46px;
   font-size: 15px;
   text-transform: uppercase;
-  color: #0B0800;
+  color: #0b0800;
   padding: 0 40px;
   outline: none !important;
   overflow: hidden;
