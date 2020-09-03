@@ -1,0 +1,124 @@
+.title-section {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  padding: 60px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title-section h1 {
+  font-size: 56px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.c100 > span {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 5em;
+  line-height: 5em;
+  font-size: 0.2em;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  transition-timing-function: ease-out;
+  color: #fff;
+  font-weight: 500;
+}
+
+.title-section h1 span {
+  color: #ffb400;
+}
+
+.title-bg {
+  font-size: 110px;
+  left: 0;
+  letter-spacing: 10px;
+  line-height: 0.7;
+  position: absolute;
+  right: 0;
+  top: 35%;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.07);
+}
+
+.c100 {
+  position: relative;
+  font-size: 120px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 0 auto;
+  float: none !important;
+  background-color: #252525;
+}
+
+.c100 .slice {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  clip: rect(auto auto auto auto);
+}
+
+.c100 *,
+.c100 *::before,
+.c100 *::after {
+  box-sizing: content-box;
+}
+
+.c100 .fill {
+  position: absolute;
+  width: 0.84em;
+  height: 0.84em;
+  clip: rect(0, 0.5em, 1em, 0);
+  border-radius: 50%;
+}
+
+.c100 .bar {
+  border: 0.08em solid #ffb400;
+  position: absolute;
+  width: 0.84em;
+  height: 0.84em;
+  clip: rect(0, 0.5em, 1em, 0);
+  border-radius: 50%;
+  transform: rotate(180deg);
+}
+
+.c100::after {
+  position: absolute;
+  top: 0.08em;
+  left: 0.08em;
+  display: block;
+  content: " ";
+  border-radius: 50%;
+  width: 0.84em;
+  height: 0.84em;
+  background-color: #111;
+  transition-timing-function: ease-in;
+}
+
+.about-list li {
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.personal-info-row {
+  margin-left: 5em;
+}
+
+.btn {
+  background-color: #ffb400;
+}
+
+.fas {
+  color: #ffb400;
+}
+
+.icon {
+  margin-left: 3em;
+}

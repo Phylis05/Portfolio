@@ -1,0 +1,252 @@
+@media screen and (max-width: 576px) {
+  section.title-section h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  section.title-section {
+    padding-bottom: 0;
+  }
+
+  span.title-bg {
+    display: none;
+  }
+
+  div.portfolio-div {
+    margin-bottom: 1em;
+  }
+
+  div.small-row {
+    margin-left: -50px;
+  }
+
+  h3.custom-title {
+    text-align: center;
+  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.6;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+
+.container-home {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10px;
+  width: 100%;
+}
+
+nav li a {
+  position: relative;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.small-main-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.small-main-menu .fa {
+  height: 55px;
+  width: 25px;
+  margin: 0.5em;
+  font-size: 13px !important;
+}
+
+header {
+  position: fixed;
+  right: 30px;
+  bottom: 0;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 200px);
+  top: 100px;
+  opacity: 1;
+}
+
+nav ul,
+nav li {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.has-subnav .fa {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  align-items: center;
+  background-color: #252525;
+  border-radius: 50px;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.has-subnav:hover .fa {
+  background-color: #ffb400;
+}
+
+.fa-bars {
+  margin-top: -31px;
+  font-size: 25px;
+}
+
+.main-menu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  right: 5%;
+  width: 60px;
+  -webkit-transition: width 0.05s linear;
+  transition: width 0.05s linear;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  z-index: 1000;
+}
+
+.main-menu li {
+  position: relative;
+  width: 60px;
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+.main-menu li > a {
+  position: relative;
+  display: flex;
+  color: #fff;
+  height: 60px;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.main-menu .nav-icon {
+  position: relative;
+  display: table-cell;
+  width: 60px;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.main-menu .nav-text {
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.no-touch .scrollable.hover {
+  overflow-y: hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+  overflow-y: auto;
+  overflow: visible;
+}
+
+.main-menu li:hover > a,
+nav.main-menu li.active > a {
+  color: #0b0800;
+  font-weight: 900;
+  background-color: #ffb400;
+}
+
+li:hover span.nav-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 60px;
+  visibility: visible;
+  transition: all 0.2s linear;
+  width: 100px;
+  height: 60px;
+  background-color: #ffb400;
+  color: #0b0800;
+}
+
+.color-block {
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  transform: rotate(-15deg);
+  left: -83%;
+  top: -50%;
+  background-color: #ffb400;
+}
+
+.bg {
+  background-image: url(/images/portfolio.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: calc(100vh - 60px);
+  z-index: 111;
+  border-radius: 15px;
+  left: 30px;
+  top: 30px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+}
+
+.home-details-div {
+  width: 70%;
+  margin-left: 5em;
+}
+
+.main-img-mobile {
+  height: 260px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.btn-about {
+  background-color: #ffb400;
+}
+
+.btn {
+  box-shadow: none !important;
+  border-radius: 26px;
+  font-weight: 500;
+  height: 46px;
+  line-height: 46px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #0b0800;
+  padding: 0 40px;
+  outline: none !important;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  border: 0;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,66 @@
+@media screen and (max-width: 767px) {
+  .custom-list {
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 2em;
+  }
+
+  .social {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .hero-title {
+    font-size: 20px !important;
+    padding-right: 2em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-title {
+    font-size: 18px !important;
+  }
+}
+
+.hero-content {
+  width: 50%;
+  color: #bdbdbd;
+}
+
+.hero-subtitle {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.4em;
+  font-weight: 900;
+  font-family: Poppins, sans-serif;
+}
+
+.hero-title {
+  margin: 20px 0 0 0;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.custom-list,
+.social {
+  font-weight: 100;
+  font-family: Open-sans, sans-serif;
+  color: #bdbdbd;
+}
+
+.custom-list li,
+.social-list li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+.custom-list i,
+.social-list i {
+  margin-right: 2em;
+  color: #ffb400;
+}
+
+.contact-title {
+  display: block;
+  margin-bottom: 0.5em;
+}
