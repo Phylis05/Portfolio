@@ -9,7 +9,7 @@ This site is a demonstration of my porfolio.
 
 ## Live Demo
 
-- View the portfolio [here](https://vigilant-almeida-256c10.netlify.app/)
+- View the portfolio [here](https://phylis05.github.io/Portfolio/)
 
 ## Author
  
